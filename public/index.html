@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <script>
+      const target = document.head || document.body;
+      const script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://apps.rokt.com/wsdk/integrations/launcher.js";
+      script.importance = "high";
+      script.crossOrigin = "anonymous";
+      script.async = true;
+      script.id = "rokt-launcher";
+
+      target.appendChild(script);
+    </script>
+    <script
+      src="https://apps.rokt.com/integrations/referral-tag/referral-tag.js"
+      async
+    ></script>
+
+    <title>React App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

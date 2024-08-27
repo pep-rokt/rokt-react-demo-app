@@ -1,0 +1,23 @@
+#page-wrapper {
+  padding: 10px 40px; /* Adjust the padding value as needed */
+  min-width: 550px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+.embed-box {
+  border: 1px dashed #b51e6d;
+  min-width: 400px;
+  max-width: 500px;
+  min-height: 150px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */
